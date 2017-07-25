@@ -7,9 +7,33 @@ Base URL: https://standapps.services/api/v1/ymja/
 Post:
  - /account/register - Add an account to the api
  - /account/login - Login into the api neccessary in order to post jokes or reviews
+
+### Example
+```
+{
+	"email":"email@address.com",
+	"password":"pw"
+}
+```
  - /joke/add - Add new joke to the api (Authenticate required)
+ ```
+ {
+	"name":"name",
+	"joketype":"joketype",
+	"setup":"setup",
+	"punchline":"punchline",
+	"actone":"actone",
+	"themix":"themix",
+	"callback":"callback"
+}
+ ```
  - /joke/review/add/:id - Add review to a specific joke (Authenticate required)
- 
+ ```
+ {
+	"title":"first review",
+	"text":"fun but nothing great"
+}
+ ```
 Delete:
  - /joke/:id - Delete the specific joke (Authenticate required)
 
