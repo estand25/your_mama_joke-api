@@ -16,6 +16,8 @@ Post:
 }
 ```
  - /joke/add - Add new joke to the api (Authenticate required)
+ 
+### Example
  ```
  {
 	"name":"name",
@@ -28,6 +30,8 @@ Post:
 }
  ```
  - /joke/review/add/:id - Add review to a specific joke (Authenticate required)
+ 
+### Example
  ```
  {
 	"title":"first review",
