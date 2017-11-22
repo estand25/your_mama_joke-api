@@ -1,5 +1,7 @@
 # Your Mama Joke API 
-Your mama joke api - Second API Project for fun
+Your mama joke api - Second API Project for fun - version 0.1
+
+Will improve on this API as my skills get better
 
 # Routers
 Base URL: https://standapps.services/api/v1/ymja/ 
