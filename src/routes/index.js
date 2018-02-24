@@ -16,6 +16,9 @@ initiailizeDB(db =>{
   // api routes v1 (/v1)
   router.use('/account', account({config, db}));
   router.use('/joke', joke({config,db}));
+  router.get('*', (req,res) => {
+    res.sendFile(path.resolve(__dirname,'index.html'))
+  });
 });
 
 export default router;
